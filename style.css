@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+header{
+    background: url("./img1/Rectangle.png") no-repeat center / cover;
+    padding-top: 59px;
+    padding-bottom: 703px;
+}
+
+header h1{
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 79px;
+    color: rgba(17, 18, 55, 1);
+}
+
+.bir{
+    background: url("./img1/Combined\ Shape.png") no-repeat center / cover;
+    padding-top: 140px;
+    padding-bottom: 247px;
+}
+
+.bir h2{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60px;
+    color: rgba(17, 18, 55, 1);
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.bir p{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0,3px;
+    color: rgba(17, 18, 55, 1);
+    padding-top: 40px;
+}
+
+.ikki{
+    padding-top: 60px;
+}
+
+.ikki h2{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 49px;
+    color: rgba(17, 18, 55, 1);
+    padding-bottom: 31px;
+}
+
+.ikki p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33,6px;
+    letter-spacing: 0,3px;
+}
+      
+.uch{
+    padding-top: 67px;
+}
+.tor .box:hover{
+    transform: scale(1.2);
+    transition: all 2s ease-in-out  ;
+}
+.tor .boxx:hover{
+    transform: scale(1.2);
+    transition: all 2s ease-in-out  ;
+}
+.tor .boxxx:hover{
+    transform: scale(1.2);
+    transition: all 2s ease-in-out  ;
+}
+.uch h1{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60px;
+    color: rgba(17, 18, 55, 1);
+    padding-bottom: 74px;
+}
+
+.uch .after::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(229, 229, 229, 1);
+    margin-bottom: 56px;
+    margin-top: 51px;
+}
+
+.uch p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 27px;
+    color: rgba(17, 18, 55, 1);
+}
+
+.tor h1{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60px;
+    color: rgba(17, 18, 55, 1);
+    padding-bottom: 77px;
+    padding-top: 337px;
+}
+
+.tor .box{
+    border: 1px solid rgba(255, 243, 219, 1);
+    padding: 60px;
+    background-color: rgba(255, 243, 219, 1);
+}
+.tor .boxx{
+    border: 1px solid rgba(255, 219, 219, 1);
+    padding: 60px;
+    background-color: rgba(255, 219, 219, 1);
+}
+.tor .boxxx{
+    border: 1px solid rgba(232, 252, 255, 1);
+    padding: 60px;
+    background-color: rgba(232, 252, 255, 1);
+}
+
+.tor p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0,3px;
+    padding-top: 19px;
+    padding-bottom: 54px;
+}
+
+.tor h3{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 2px;
+}
+
+.bew{
+    padding-top: 180px;
+    padding-bottom: 65px;
+    background: url("./img1/rasm.png")no-repeat center / cover;
+}
+
+.bew .box{
+    border: 1px solid rgba(1, 107, 127, 1);
+    padding: 85px 90px;
+    display: flex;
+    background-color: rgba(1, 107, 127, 1);
+    align-items: center;
+}
+
+.bew h2{
+    text-align: left;
+    padding-right: 108px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    color: rgba(255, 255, 255, 1);
+}
+
+footer{
+    background-color: rgba(255, 243, 241, 1);
+    padding-top: 75px;
+}
+
+footer h2{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60px;
+    color: rgba(17, 18, 55, 1);
+    padding-bottom: 67px;
+}
+
+footer p{
+    padding-top: 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0,3px;
+    color: rgba(17, 18, 55, 1);
+    padding-bottom: 181px;
+}
+
+footer h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0,3px;
+    color: rgba(17, 18, 55, 1);
+    padding-top: 54px;
+}
+
+/* media_screen */
+
+/* xl - 1200  */
+
+/* lg - 1199px dan - 992px gacha */
+
+@media (max-width: 1199px) {
+}
+
+/* md - 991px dan - 768px gacha  */
+
+@media (max-width: 991px) {
+    .bew .box {
+        flex-direction: column;
+    }
+
+}
+
+/* sm - 767px dan - 576px gacha */
+
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 56px;
+            line-height: 60px;
+    }
+    header {
+        padding-bottom: 173px;
+    }
+    .bir h2 {
+        font-size: 42px;
+        line-height: 41px;
+    }
+}
+
+/* col/xs - 575px = 320px   dan - gacha */
+
+@media (max-width: 575px) {
+    .bir h2 {
+        font-size: 22px;
+        line-height: 19px;
+    }
+    .bir p {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0,3px;
+        padding-top: 20px;
+    }
+    .ikki h2 {
+        font-size: 37px;
+        line-height: 36px;
+        padding-bottom: 14px;
+    }
+    .ikki p {
+        font-size: 13px;
+    }
+    .uch h1 {
+        font-size: 42px;
+        line-height: 26px;
+        padding-bottom: 32px;
+    }
+    .uch p {
+        font-size: 15px;
+        line-height: 1px;
+    }
+    .tor h1 {
+        font-size: 44px;
+        line-height: 44px;
+        padding-bottom: 52px;
+        padding-top: 132px;
+    }
+    .tor h3 {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 14px;
+        letter-spacing: 0px;
+    }
+    .tor p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 0,3px;
+        padding-top: 19px;
+        padding-bottom: 9px;
+    }
+    .bew h2 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 1);
+    }
+    footer h2 {
+        padding-top: 10px;
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 41px;
+        color: rgba(17, 18, 55, 1);
+        padding-bottom: 19px;
+    }
+    footer p {
+        padding-bottom: 52px;
+    }
+    footer h3 {
+        font-size: 11px;
+        line-height: 17px;
+        padding-top: 25px;
+    }
+}
